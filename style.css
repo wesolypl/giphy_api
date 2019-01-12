@@ -21,6 +21,7 @@ input {
     font-size: 24px;
     padding: 10px 30px;
     width: 25%;
+    min-width: 300px;
     background: rgba(0, 0, 0, 0.5);
     border: none;
     text-align: center;
@@ -38,8 +39,9 @@ input {
 }
 
 .result video {
-    max-width: 33.3%;
-    /* flex-basis: 33.3%; */
+
+    /* flex-basis: 33.3% !important; */
+    max-width: 100%;
     /* border: 1px solid black; */
     max-height: 50%;
     box-shadow: 0 0 10px 0 black;
